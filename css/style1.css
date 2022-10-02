@@ -1,0 +1,315 @@
+.headerNav {
+    background-color: black;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50px;
+    align-items: center;
+}
+
+.footerNav {
+    background-color: #c29b26;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    align-items: center;
+}
+
+body {
+    margin: 0
+}
+
+.headerNav * {
+    display: inline;
+}
+
+.headerNav {
+    padding: 10px 0px 10px 0px;
+}
+
+.headerNav li {
+    margin: 20px;
+}
+
+.headerNav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.headerNav li a:hover {
+    color: #c29b26;
+}
+
+.headerNav li img {
+    height: 45px;
+}
+
+.footerSection section #footerLogo {
+    height: 50px;
+    padding: 10px 0px 10px 20px;
+}
+
+.footerSection section #footerUniversityName {
+    height: 60px;
+    padding: 5px 0px 0px 5px;
+}
+
+.footerNav * {
+    display: inline;
+}
+
+.footerNav {
+    padding: 0px 0px 10px 0px;
+}
+
+.footerNav ul {
+    padding: 0px 0px 5px 10px;
+}
+
+.footerNav li {
+    list-style: none;
+    margin: 10px;
+}
+
+.footerNav li a {
+    color: black;
+    text-decoration: none;
+}
+
+.footerNav li a:hover {
+    color: white;
+}
+
+footer {
+    background-color: #c29b26;
+    position: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+footer li {
+    margin: 10px;
+}
+
+footer li a {
+    color: black;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: white;
+}
+
+img.logoLinkImage {
+    width: 25px;
+    height: 25px;
+    padding: 5px 0px 0px 0px;
+}
+
+img.logoLinkImage:hover {
+    color: white;
+    opacity: 0.4;
+}
+
+.pageContent {
+    margin-bottom: 5%;
+}
+
+.singleRowTable {
+    width: 100%;
+    background-color: #DCDCDC;
+}
+
+.facilitiesInfo {
+    background-color: #DCDCDC;
+}
+
+.feeStructure {
+    padding: 30px 30px 30px 30px;
+}
+
+.enquiryFormSection {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    background-color: #DCDCDC;
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.automaticSlideSection {
+    width: 50%;
+    padding: 60px 60px 60px 60px;
+}
+
+.automaticSlideSection p {
+    font-size: 20px;
+}
+
+.coverImageSection {
+    width: 50%;
+}
+
+.coverImageSection img {
+    height: 500px;
+    width: 100%;
+    border-radius: 600px 550px 120px 400px;
+}
+
+.coursesInfo h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.columnCourseInfoImageContainer {
+    padding: 60px 60px 60px 60px;
+    background-color: #DCDCDC;
+    border-radius: 25px;
+    border: 10px solid white;
+}
+
+.columnCourseInfoDetailsContainer {
+    padding: 20px 60px 20px 40px;
+    background-color: #DCDCDC;
+    border-radius: 25px;
+    border: 10px solid white;
+}
+
+.contentHeadingContainer {
+    font-size: 20px;
+}
+
+.facilitiesInfo h1 {
+    text-align: center;
+    padding: 60px;
+    font-size: 20px;
+}
+
+.facilitiesInfoDetails {
+    padding: 5px 5px 60px 5px;
+}
+
+.tableInfoContainer img {
+    filter: invert(58%) sepia(82%) saturate(414%) hue-rotate(7deg) brightness(91%) contrast(87%);
+}
+
+.imageContainer {
+    display: none;
+}
+
+.imageContainer img {
+    height: 400px;
+    width: 90%
+}
+
+.VITInfoImage {
+    width: 100px;
+    height: 100px;
+}
+
+.courseImage {
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.7), 0 12px 30px 0 rgba(0, 0, 0, 0.59);
+    transition: transform 2s;
+}
+
+.courseImage:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.VITInfoColumn {
+    background-color: white;
+    padding: 60px 60px 60px 60px;
+    text-align: center;
+    border-radius: 40px;
+    border: 30px solid #DCDCDC;
+}
+
+.VITInfoColumn:hover {
+    background-color: black;
+    color: #c29b26;
+}
+
+.feeStructure #feeDetailsMessage {
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.feeDetails {
+    border-collapse: collapse;
+    border: 1px solid;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.feeDetails td {
+    border-collapse: collapse;
+    border: 1px solid;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.enquiryFormSection h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.enquiryForm #fname {
+    padding: 10px 10px 10px 10px;
+}
+
+.enquiryForm #subject {
+    height: 200px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.enquiryFormSubmitButtonSection {
+    text-align: center;
+}
+
+.enquiryForm input[type=text],
+.enquiryForm select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.enquiryForm input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.enquiryForm input[type=submit]:hover {
+    background-color: #45a049;
+}
